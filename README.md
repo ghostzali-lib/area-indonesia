@@ -1,5 +1,5 @@
 ## Area - Indonesia
-![](.README/FlagOfIndonesia.png)
+![Flag of Indonesia](.README/FlagOfIndonesia.png)
 
 _Powered by **[GO Indonesia](http://goindonesia.id)**_
 
@@ -39,8 +39,8 @@ _Powered by **[GO Indonesia](http://goindonesia.id)**_
 
 
 ###### Documentations :
-* [Postman Collection v1](src/master/documentations/INDONESIA.postman_collection_v1.json)
-* [Postman Collection v2](src/master/documentations/INDONESIA.postman_collection_v2.json)
+* [Postman Collection v1](documentations/INDONESIA.postman_collection_v1.json)
+* [Postman Collection v2](documentations/INDONESIA.postman_collection_v2.json)
 
 
 #### Contributors
