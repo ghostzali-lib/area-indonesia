@@ -1,0 +1,187 @@
+{
+	"variables": [],
+	"info": {
+		"name": "INDONESIA",
+		"_postman_id": "0e335ccd-0112-9783-b96a-61205949aeea",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Generally Search",
+			"request": {
+				"url": "http://localhost:8080/search?keyword=tebet",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": "Search generally from provinces, regencies, districts, and even from villages using keyword (word or code)"
+			},
+			"response": []
+		},
+		{
+			"name": "Province All",
+			"request": {
+				"url": "http://localhost:8080/province/all",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": "List of all provinces"
+			},
+			"response": []
+		},
+		{
+			"name": "Province One",
+			"request": {
+				"url": "http://localhost:8080/province/one?code=11",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": "Select province with code"
+			},
+			"response": []
+		},
+		{
+			"name": "Province Search",
+			"request": {
+				"url": "http://localhost:8080/province/search?keyword=jakarta",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": "Search province using keyword (word or code)"
+			},
+			"response": []
+		},
+		{
+			"name": "Regency All",
+			"request": {
+				"url": "http://localhost:8080/regency/all",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": "List of all regencies"
+			},
+			"response": []
+		},
+		{
+			"name": "Regency One",
+			"request": {
+				"url": "http://localhost:8080/regency/one?code=1101",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": "Select regency with code"
+			},
+			"response": []
+		},
+		{
+			"name": "Regency Search",
+			"request": {
+				"url": "http://localhost:8080/regency/search?keyword=jakarta",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": "Search regencies using keyword (word or code)"
+			},
+			"response": []
+		},
+		{
+			"name": "Regency by Province Code",
+			"request": {
+				"url": "http://localhost:8080/regency/parent?code=11",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": "List regencies by province code"
+			},
+			"response": []
+		},
+		{
+			"name": "District All",
+			"request": {
+				"url": "http://localhost:8080/district/all",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": "List of all districts"
+			},
+			"response": []
+		},
+		{
+			"name": "District One",
+			"request": {
+				"url": "http://localhost:8080/district/one?code=1101010",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": "Select district with code"
+			},
+			"response": []
+		},
+		{
+			"name": "District Search",
+			"request": {
+				"url": "http://localhost:8080/district/search?keyword=tebet",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": "Search districts using keyword (word or code)"
+			},
+			"response": []
+		},
+		{
+			"name": "District by Regency Code",
+			"request": {
+				"url": "http://localhost:8080/district/parent?code=1101",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": "List districts by regency code"
+			},
+			"response": []
+		},
+		{
+			"name": "Village All",
+			"request": {
+				"url": "http://localhost:8080/village/all",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": "List of all villages"
+			},
+			"response": []
+		},
+		{
+			"name": "Village One",
+			"request": {
+				"url": "http://localhost:8080/village/one?code=1101010001",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": "Select village with code"
+			},
+			"response": []
+		},
+		{
+			"name": "Village Search",
+			"request": {
+				"url": "http://localhost:8080/village/search?keyword=tebet",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": "Search villages using keyword (word or code)"
+			},
+			"response": []
+		},
+		{
+			"name": "Village by District Code",
+			"request": {
+				"url": "http://localhost:8080/village/parent?code=1101010",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": "List villages by district code"
+			},
+			"response": []
+		}
+	]
+}
