@@ -1,0 +1,11 @@
+---
+engines:
+  fixme:
+    enabled: true
+    checks:
+      BUG:
+        enabled: false
+ratings:
+  paths: []
+exclude_paths: []
+
