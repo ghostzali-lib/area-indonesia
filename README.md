@@ -1,4 +1,5 @@
-[![Documentation Status](https://readthedocs.org/projects/area-indonesia/badge/?version=latest)](http://area-indonesia.readthedocs.io/en/latest/?badge=latest)
+[![Documentation Status](https://readthedocs.org/projects/area-indonesia/badge/?version=latest)](http://area-indonesia.readthedocs.io/en/latest/?badge=latest) 
+[![GitPitch](https://gitpitch.com/assets/badge.svg)](https://gitpitch.com/ghostzali-lib/area-indonesia/master?grs=github&t=white)
 
 # Area - Indonesia
 ![Flag of Indonesia](.README/FlagOfIndonesia.png)
