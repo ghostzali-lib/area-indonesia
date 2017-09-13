@@ -1,23 +1,23 @@
-
-[![Documentation Status](https://readthedocs.org/projects/area-indonesia/badge/?version=latest)](http://area-indonesia.readthedocs.io/en/latest/?badge=latest)
-
+---
 # Area - Indonesia
 ![Flag of Indonesia](.README/FlagOfIndonesia.png)
 
-_Powered by **[GO Indonesia](http://goindonesia.id)**_
+Powered by **[GO Indonesia](http://goindonesia.id)**
 
 
 **Area** : _Basic concept is to provide geographic information related with it's administrative._
 
 **Indonesia**: _Related to Republic Indonesia administrative._
 
-#### This project provides data :
+---
+## This project provides data :
 * Provinces _(in bahasa: Provinsi)_
 * Regencies _(in bahasa: Kota / Kabupaten)_
 * Districts _(in bahasa: Kecamatan)_
 * Village _(in bahasa: Desa / Kelurahan)_
 
-#### with several features :
++++
+## features :
 * Generally
     1. Search (`/search?keyword=<your keyword>`)
 * Provinces
@@ -41,23 +41,26 @@ _Powered by **[GO Indonesia](http://goindonesia.id)**_
     4. List in specific district (`/village/parent?code=<district code>`)
 
 
-#### Documentations
+---
+## Documentations
 ###### Version 1.0
 * [Postman Collection v1](documentations/1.0/INDONESIA.postman_collection_v1.json)
 * [Postman Collection v2](documentations/1.0/INDONESIA.postman_collection_v2.json)
 
 
-
-#### Contributors
+---
+## Contributors
 * Akhmad Ghozali Amrulloh ([ghostzali](https://github.com/ghostzali)_09@gmail.com_)
 
 
+---
 #### License
 * The scripts are license under: [MIT](license.md).
 * The data (CSV and SQL) are under: [ODBL v1.0](odbl-10.md).
 * The source data is attributed to [Badan Pusat Statistik (BPS) Indonesia](http://bps.go.id).
 
 
+---
 > Thanks to :
 > * [Edward Samuel Pasaribu](https://github.com/edwardsamuel) with his project [Data Provinsi, Kota/Kabupaten, Kecamatan, dan Kelurahan/Desa di Indonesia](https://github.com/edwardsamuel/Wilayah-Administratif-Indonesia)
 > * [Badan Pusat Statistik (BPS) Indonesia](http://bps.go.id) for all effort.
