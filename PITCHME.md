@@ -4,10 +4,8 @@
 
 Powered by **[GO Indonesia](http://goindonesia.id)**
 
-
-**Area** : _Basic concept is to provide geographic information related with it's administrative._
-
-**Indonesia**: _Related to Republic Indonesia administrative._
+###### **Area** : _Basic concept is to provide geographic information related with it's administrative._
+###### **Indonesia**: _Related to Republic Indonesia administrative._
 
 ---
 ## This project provides data :
@@ -16,7 +14,7 @@ Powered by **[GO Indonesia](http://goindonesia.id)**
 * Districts _(in bahasa: Kecamatan)_
 * Village _(in bahasa: Desa / Kelurahan)_
 
-+++
+---
 ## features :
 * Generally
     1. Search (`/search?keyword=<your keyword>`)
@@ -24,16 +22,19 @@ Powered by **[GO Indonesia](http://goindonesia.id)**
     1. List all (`/province/all`)
     2. Select with code (`/province/one?code=<province code>`)
     3. Search in provinces (`/province/search?keyword=<your keyword>`)
++++
 * Regencies
     1. List all (`/regency/all`)
     2. Select with code (`/regency/one?code=<regency code>`)
     3. Search in regencies (`/regency/search?keyword=<your keyword>`)
     4. List in specific province (`/regency/parent?code=<province code>`)
++++
 * Districts
     1. List all (`/district/all`)
     2. Select with code (`/district/one?code=<district code>`)
     3. Search in districts (`/district/search?keyword=<your keyword>`)
     4. List in specific regency (`/district/parent?code=<regency code>`)
++++
 * Villages
     1. List all (`/village/all`)
     2. Select with code (`/village/one?code=<village code>`)
