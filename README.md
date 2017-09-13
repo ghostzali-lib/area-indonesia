@@ -1,4 +1,6 @@
-## Area - Indonesia
+[![Documentation Status](https://readthedocs.org/projects/area-indonesia/badge/?version=latest)](http://area-indonesia.readthedocs.io/en/latest/?badge=latest)
+
+# Area - Indonesia
 ![Flag of Indonesia](.README/FlagOfIndonesia.png)
 
 _Powered by **[GO Indonesia](http://goindonesia.id)**_
