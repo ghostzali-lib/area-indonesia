@@ -40,9 +40,9 @@ jobs:
           key: v1-dependencies-{{ checksum "build.gradle" }}
         
       # run tests!
-      - run: 
-          name: Testing
-          command: gradle test
+      #- run: 
+      #    name: Testing
+      #    command: gradle test
       - run:
           name: Building
           command: gradle build
