@@ -13,7 +13,8 @@ cache:
     - $HOME/.gradle/wrapper/
 
 before_install:
-  - chmod a+x ./gradlew
+  - chmod a+x gradlew
+  - gradle wrapper
 
 script:
   - gradle assemble
