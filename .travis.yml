@@ -14,8 +14,7 @@ cache:
 
 before_install:
   - chmod a+x ./gradlew
-  - ./gradlew wrapper --gradle-version=4.2.1 --distribution-type=bin
-  - ./gradlew tasks
+  - ./gradlew wrapper
 
 script:
   - ./gradlew assemble
