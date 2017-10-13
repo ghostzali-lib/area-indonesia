@@ -48,7 +48,7 @@ jobs:
           command: gradle build -x test
       - run:
           name: Jacoco Report
-          command: if [ -e ./gradlew ]; then ./gradlew jacocoTestReport;else gradle jacocoTestReport;fi
+          command: gradle jacocoTestReport
       - run:
           name: Codecov Report
           command: bash <(curl -s https://codecov.io/bash) -t ef57bb57-a458-4a0d-a5b1-ca5639d6d3f7
