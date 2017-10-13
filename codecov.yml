@@ -1,5 +1,7 @@
 codecov:
+  branch: master
   token: ef57bb57-a458-4a0d-a5b1-ca5639d6d3f7
+  max_report_age: off
   notify:
     require_ci_to_pass: yes
 
@@ -25,4 +27,5 @@ comment:
   layout: "reach, diff, flags, files, footer"
   behavior: default
   require_changes: no
-  secret: R68G0TuMCSBvaTCyEh6U/sp1xlID8H5GU2MeqrnD1dX+76pACUp7LazR/SdniOZNycc2WVW3rTBtCLRT/f7jooDFx5yXm3wPtn8VJDIqg08=
+ 
+#secret: R68G0TuMCSBvaTCyEh6U/sp1xlID8H5GU2MeqrnD1dX+76pACUp7LazR/SdniOZNycc2WVW3rTBtCLRT/f7jooDFx5yXm3wPtn8VJDIqg08=

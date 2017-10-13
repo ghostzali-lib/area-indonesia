@@ -1,5 +1,0 @@
-language: java
-sudo: false # faster builds
-
-after_success:
-  - bash <(curl -s https://codecov.io/bash) -t ef57bb57-a458-4a0d-a5b1-ca5639d6d3f7
