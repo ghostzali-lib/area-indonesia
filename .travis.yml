@@ -2,10 +2,6 @@ language: java
 sudo: false
 jdk:
   - oraclejdk8
-
-env:
-  - PROD_VERSION="1.0"
-  - CODECOV_TOKEN="ef57bb57-a458-4a0d-a5b1-ca5639d6d3f7"
   
 before_cache:
   - rm -f  $HOME/.gradle/caches/modules-2/modules-2.lock
