@@ -1,15 +1,15 @@
 group 'id.goindonesia.area'
 
 buildscript {
-	ext {
-		springBootVersion = '1.5.3.RELEASE'
-	}
-	repositories {
-		mavenCentral()
-	}
-	dependencies {
-		classpath("org.springframework.boot:spring-boot-gradle-plugin:${springBootVersion}")
-	}
+    ext {
+        springBootVersion = '1.5.3.RELEASE'
+    }
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        classpath("org.springframework.boot:spring-boot-gradle-plugin:${springBootVersion}")
+    }
 }
 
 apply plugin: 'java'
@@ -20,23 +20,26 @@ version '1.0'
 sourceCompatibility = 1.8
 
 repositories {
-	mavenCentral()
+    mavenCentral()
 }
 
 dependencies {
-	compile('org.springframework.boot:spring-boot-starter-data-jpa')
-	compile('org.springframework.boot:spring-boot-starter-jdbc')
-	compile('org.springframework.boot:spring-boot-starter-jersey')
-	compile('org.springframework.boot:spring-boot-starter-validation')
-	compile('org.springframework.boot:spring-boot-starter-web')
-	compile('org.hibernate:hibernate-core:5.2.10.Final')
-	compile('org.hibernate:hibernate-search-orm:5.7.0.Final')
-	compile('com.google.code.gson:gson:2.8.0')
-	compile('commons-lang:commons-lang:2.6')
+    compile('org.springframework.boot:spring-boot-starter-data-jpa') {
+       exclude group: "org.hibernate", module: "hibernate-core"
+       exclude group: "org.hibernate", module: "hibernate-entitymanager"
+    }
+    compile('org.springframework.boot:spring-boot-starter-jdbc')
+    compile('org.springframework.boot:spring-boot-starter-jersey')
+    compile('org.springframework.boot:spring-boot-starter-validation')
+    compile('org.springframework.boot:spring-boot-starter-web')
+    compile('org.hibernate:hibernate-core:5.2.11.Final')
+    compile('org.hibernate:hibernate-search-orm:5.8.1.Final')
+    compile('com.google.code.gson:gson:2.8.0')
+    compile('commons-lang:commons-lang:2.6')
     compile('commons-io:commons-io:2.5')
 
     runtime('com.h2database:h2')
-	testCompile('org.springframework.boot:spring-boot-starter-test')
+    testCompile('org.springframework.boot:spring-boot-starter-test')
 }
 
 jacocoTestReport {
