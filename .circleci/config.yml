@@ -46,7 +46,7 @@ jobs:
       #    command: gradle test
       - run:
           name: Building
-          command: gradle build -x test
+          command: gradle build
       - run:
           name: Jacoco Report
           command: gradle jacocoTestReport
