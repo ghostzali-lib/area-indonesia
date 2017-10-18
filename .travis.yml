@@ -4,11 +4,13 @@ jdk:
   - oraclejdk8
   
 before_cache:
+  - rm -fr $HOME/.m2
   - rm -f  $HOME/.gradle/caches/modules-2/modules-2.lock
   - rm -fr $HOME/.gradle/caches/*/plugin-resolution/
 
 cache:
   directories:
+    - $HOME/.m2/
     - $HOME/.gradle/caches/
     - $HOME/.gradle/wrapper/
 
@@ -17,6 +19,9 @@ before_install:
   - gradle wrapper
 
 script:
+  - gradle check
+
+after_script:
   - gradle build
 
 after_success:
