@@ -58,7 +58,7 @@ _Powered by **[GO Indonesia](http://goindonesia.id)**_
 
 
 #### License
-* The scripts are license under: [MIT](license.md).
+* The scripts are license under: [MIT](LICENSE).
 * The data (CSV and SQL) are under: [ODBL v1.0](odbl-10.md).
 * The source data is attributed to [Badan Pusat Statistik (BPS) Indonesia](http://bps.go.id).
 
