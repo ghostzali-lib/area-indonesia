@@ -25,7 +25,8 @@ repositories {
 
 dependencies {
 	compile('org.springframework.boot:spring-boot-starter-data-jpa') {
-		exclude module: 'hibernate-entitymanager'
+		exclude group: 'org.hibernate', module: 'hibernate-core'
+		exclude group: 'org.hibernate', module: 'hibernate-entitymanager'
 	}
 	compile('org.springframework.boot:spring-boot-starter-jdbc')
 	compile('org.springframework.boot:spring-boot-starter-jersey')
